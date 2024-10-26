@@ -1,0 +1,284 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+h1, h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+/* Header */
+.header {
+    background-color: black;
+    padding: 32px 0;
+}
+.header-container {
+    display: flex;
+    gap: 100px;
+}
+.header-logo {
+font-family: 'Oswald';
+font-size: 24px;
+line-height: 36px;
+color: #B2FFA6;
+}
+.header-list {
+display: flex;
+gap: 100px;
+}
+.header-link {
+font-family: 'Oswald';
+font-size: 24px;
+line-height: 36px;
+color: #FFFFFF;
+}
+/*Hero*/
+.hero {
+}
+.hero-container {
+display: flex;
+justify-content: space-between;
+}
+.hero-wrap {
+margin-top: 148px;
+}
+.hero-title {
+margin-bottom: 50px;
+font-size: 64px;
+line-height: 75px;
+text-transform: capitalize;
+color: #000000;
+font-style: normal;
+font-weight: 400;
+}
+.hero-title-part {
+font-weight: 700;
+}
+.hero-button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 80px;
+gap: 10px;
+background: #B2FFA6;
+border-radius: 5px;
+border: none;
+font-family: 'Oswald';
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #000000;
+cursor: pointer;
+}
+.hero-image {
+width: 800px;
+height: 800px;
+}
+/* About us */
+.about-us {
+background: #EFEFEF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-us-container {
+display: flex;
+justify-content: space-between;
+}
+.about-us-image {
+width: 742px;
+height: 742px;
+}
+.about-us-wrap {
+margin-top: 98px;
+}
+.about-us-title {
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #000000;
+}
+.about-us-text-wrap {
+margin-bottom: 60px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.about-us-text {
+font-style: normal;
+font-weight: 400;
+/* font-size: 32px; */
+line-height: 38px;
+color: #000000;
+}
+.about-us-button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 80px;
+gap: 10px;
+background: #B2FFA6;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #000000;
+}
+/* Advantages */
+.advantages-container {
+display: flex;
+justify-content: space-between;
+}
+.advantages-wrap {
+margin-top: 191px;
+margin-bottom: 191px;
+
+}
+.advantages-items-wrap {
+display: flex;
+flex-wrap: wrap;
+width: 929px;
+gap: 115px;
+}
+.advantages-item {
+display: flex;
+gap: 8px;
+}
+.item-wrap {
+max-width: 330px;
+}
+.advantages-icon {
+width: 50px;
+height: 50px;
+}
+.advantages-item-title {
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+text-transform: capitalize;
+color: #000000;
+margin-bottom: 25px;
+}
+.advantages-item-text {
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: #000000;
+}
+.advantages-image {
+height: 768px;
+width: 517px;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+/* Services */
+.services {
+background: #EFEFEF;
+}
+.services-container {
+padding-top: 60px;
+padding-bottom: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 1346px;
+}
+.services-title {
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+text-transform: capitalize;
+color: #000000;
+margin-bottom: 40px;
+}
+.services-text {
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+margin-bottom: 56px;
+}
+.services-items {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+width: 1620px;
+}
+.services-image {
+width: 390px;
+height: 286px;
+}
+.services-item-title {
+margin-top: 25px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+.services-button {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 80px;
+gap: 10px;
+border: 3px solid #B2FFA6;
+border-radius: 5px;
+cursor: pointer;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #000000;
+margin-top: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+/* Footer */
+.footer {
+background: #121212;
+}
+.footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 36px 151px;
+}
+.footer-text {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
